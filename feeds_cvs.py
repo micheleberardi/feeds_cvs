@@ -19,7 +19,7 @@ date2 = date_after_day.strftime('%Y%m%d')
 #print(date)
 
 #CONNECTION DATABASE
-mydb = MySQLdb.connect(host='10.200.40.28', user='tats', passwd='tats', db='feeds')
+mydb = MySQLdb.connect(host='10.200.xx.xx', user='xxx', passwd='xxx', db='feeds')
 cursor = mydb.cursor()
 
 
